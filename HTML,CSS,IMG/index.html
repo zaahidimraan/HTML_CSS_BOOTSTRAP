@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+      
+      <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title> Mini Clip</title>
+        <link rel = "icon" href = 
+"clipemine.png" 
+        type = "image/x-icon">
+
+
+<!--For NavBar-->
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbars/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+      <!--NavBar-->
+
+        <nav class="navbar navbar-expand-lg navbar-white bg-white" aria-label="Fourth navbar example">
+          <div class="container-fluid">
+            <div class="col-auto" style="padding: 10px;margin: 20px;">
+              <img src="clipemine.png" width="150px" >
+              <span class="badge bg-secondary">Beta</span>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+              <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a onclick="myFunction()" class="nav-link px-2 text-secondary">Home</a></li>
+                <li><a onclick="myFunction()" class="nav-link px-2 text-secondary">Help</a></li>
+                <li><a onclick="myFunction()" class="nav-link px-2 text-secondary">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                   </svg>Search
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                     <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                   </svg>
+                
+                    </a>
+                </li>
+  
+              </ul>
+      
+  
+              <div class="text-end">
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                  <li><a onclick="myFunction()" class="nav-link px-2 text-secondary">Blog</a></li>
+                  <li><a onclick="myFunction()" class="nav-link px-2 text-secondary">SignUp</a></li>
+                  <li><a onclick="myFunction()" class="nav-link px-2 text-secondary">Login</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      
+
+      <!--Add a image instead of slideshow becuase JavaScript Not Allowed-->
+      <div class="container text-center" style="background-image:url('s1.png');background-size: 100% 100%;max-width:100%;height: 100%;margin:0%;padding:0%;">
+          <h1 style="padding-top: 150px;color:white;">A Better video experince for Web</h1>
+          <p style="color:white;font-size: large;">ClipeMine is the tool to easily tag into video<br> to give more interactive experince</p>
+          <button class="btn btn-info" onclick="myFunction()">SignUp</button>
+          <div style="text-align:center;padding-top: 250px;">
+            <span class="dot" onclick="myFunction()"></span> 
+            <span class="dot" onclick="myFunction()"></span> 
+          </div>
+      </div>
+      <hr style="color:blue;">
+
+      <!--Taging-->
+      <h4 style="padding: 20px;margin:20px;text-align:center;">Help your Viewers discover what does matters more to them</h4>
+      <div class="container px-4 py-5 text-center">
+        <div class="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
+         <div class="feature col-lg-4">
+          <div class="modal-content rounded-3">
+           <div class="row"><img src="img1.png" style="width:100%;"></div>
+           <div class="row">
+            <p style="text-align:left;">@01:00:20 People who refuse to join social media<br>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 16">
+               <path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0z"/>
+               <path d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1zm0 5.586 7 7L13.586 9l-7-7H2v4.586z"/>
+             </svg>
+             4 people Tagged
+             <span style="padding: 10px;"></span>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+               <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+             </svg>
+             170
+           </p>
+           </div>
+            <p class="alert alert-secondary" style="text-align:left;">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 16">
+                <path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0z"/>
+                <path d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1zm0 5.586 7 7L13.586 9l-7-7H2v4.586z"/>
+              </svg>
+              4 people 
+              <span style="padding: 10px;"></span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+              </svg>
+              170
+            </p>
+          </div>
+         </div>
+         <div class="feature col-lg-4">
+          <div class="modal-content rounded-3">
+          <div class="row"><img src="img2.png" style="width:100%;"></div>
+          <div class="row">
+            <p style="text-align:left;">@01:20:20 Tonight show's today guest<br>
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 16">
+               <path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0z"/>
+               <path d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1zm0 5.586 7 7L13.586 9l-7-7H2v4.586z"/>
+             </svg>
+             6 people tagged
+             <span style="padding: 10px;"></span>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+               <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+             </svg>
+             176
+            </p>
+          </div>
+            <p class="alert alert-secondary" style="text-align:left;">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 16">
+                <path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0z"/>
+                <path d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1zm0 5.586 7 7L13.586 9l-7-7H2v4.586z"/>
+              </svg>
+              6 people 
+              <span style="padding: 10px;"></span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+              </svg>
+              176
+            </p>
+          </div>
+         </div>
+         <div class="feature col-lg-4">
+          <div class="modal-content rounded-3">
+          <div class="row"><img src="img3.png" style="width:100%;"></div>
+          <div class="row">
+            <p style="text-align:left;">@03:20:10 Bill Gates Show's Guest<br>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 16">
+               <path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0z"/>
+               <path d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1zm0 5.586 7 7L13.586 9l-7-7H2v4.586z"/>
+             </svg>
+             6 people tagged
+             <span style="padding: 10px;"></span>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+               <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+             </svg>
+             176
+           </p>
+          </div>
+            <p class="alert alert-secondary" style="text-align:left;">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 16">
+                <path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0z"/>
+                <path d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1zm0 5.586 7 7L13.586 9l-7-7H2v4.586z"/>
+              </svg>
+              6 people 
+              <span style="padding: 10px;"></span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+              </svg>
+              176
+            </p>
+          </div>
+         </div>        
+        </div>
+      </div>
+
+      <!--Features-->
+      <div class="container px-4 py-5 text-center">
+        <p>
+        ClipeMine is the best site for video editiong <br>
+        Best tool please try it.
+         </p>
+         <h1>Features</h1>
+         <!--Features-->
+         <div class="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="feature col">
+             <div class="feature d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+               <img src="img4.png" style="width:100%;height:100%">
+             </div>
+              <h3>Sharing</h3>
+               <p>You need permission to use a logo unless it is for editorial or information purposes.</p>
+             
+            </div>          
+            <div class="feature col">
+              <div class="feature d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+                <img src="img5.png" style="width:100%;height:100%">
+              </div>
+                <h3>Interactive</h3>
+                <p>Responsive logos are shape-shifting logos that change in size, complexity or even color to accommodate and adapt to wherever they are placed</p>
+            </div>
+            <div class="feature col">
+              <div class="feature d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+                <img src="img6.png" style="width:100%;height:100%">
+              </div>
+                <h3>Smart Taging</h3>
+                <p>A logo label is a branding label created by using your own company logo, design, motto or artwork</p>
+              
+            </div>
+         </div>
+      </div>
+
+      <!--Benefits-->
+      
+      <div class="container px-7 py-5 text-center" >
+        <h1 padding="50px">Benefits</h1>
+        <div class="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-2">
+            <div class="feature col-lg-4">
+              <img src="img7.png" style="height: 100px;">
+            </div>
+            <div class="feature col">
+              <h3 class="text-lg-left">Personalized Experience</h3>
+              <p style="text-align:left;">Customers expect companies to understand their unique tastes and preferences and engage them as individuals rather than customer types or segments.</p>
+            </div>
+        </div>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-2" >
+          <div class="feature col-lg-4">
+            <img src="img8.png" style="height: 100px;">
+          </div>
+          <div class="feature col">
+            <h3 class="text-lg-left">Improved Engagement</h3>
+            <p style="text-align:left;">Gallup defines employee engagement as the involvement and enthusiasm of employees in their work and workplace.</p>
+          </div>
+       </div>
+       <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+         <div class="feature col-lg-4">
+           <img src="img9.png" style="height: 100px;">
+         </div>
+         <div class="feature col">
+          <h3 class="text-lg-left">Actionable Analytic</h3>
+          <p style="text-align:left;">Action Analytics is a framework that provides this clear destination and direction, namely to change actions.</p>
+         </div>
+       </div>
+     </div>
+     
+     <!--Video Collection-->
+     <div class="container px-4 py-5 text-center">
+       <h1>ClipeMine Video Collection</h1>
+       <div class="row g-4 py-5 row-cols-1 row-cols-lg-2" style="padding:20px;margin: 10%;">
+         <div class="feature col" style="background-image:url('img10.png');background-size:95% 100%;background-repeat:no-repeat;height: 150px;padding-top: 45px;">
+          <h2 style="color:antiquewhite;align-self: center;">StartUp</h2>
+         </div>
+         <div class="feature col" style="background-image:url('img11.png');background-size:95% 100%;background-repeat:no-repeat;height: 150px;padding-top: 45px;">
+          <h2 style="color:antiquewhite;align-self: center;">Machine Learning</h2>
+         </div>
+       </div>
+       <h3>These are the some example of videos made with ClipeMine</h3>
+     </div>
+
+     <hr>
+     <!--Who is using clipMine-->
+     <div class="container px-4 py-5 text-center" style="background-color:silver;" style="padding:20px;">
+       
+       <h3>Who's is using ClipeMine?</h3>
+       <div class="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="feature col">
+           <img src="c1.png" style="margin:20px;width:70%;">
+        </div>
+        <div class="feature col">
+         <img src="c2.png" style="margin:20px;width:70%;">
+        </div>
+        <div class="feature col">
+         <img src="c3.png" style="margin:20px;width:70%;">
+        </div>
+        <div class="feature col">
+           <img src="c4.png" style="margin:20px;width:70%;">
+        </div>
+        <div class="feature col">
+         <img src="c5.png" style="margin:20px;width:70%;">
+        </div>
+        <div class="feature col">
+         <img src="c6.png" style="margin:20px;width:70%;">
+        </div>
+       </div>
+       <span>Want to embed vidoes on your site</span>
+       <a href="index.html">content</a>
+     </div>    
+
+     <!--What do you like to tag-->
+     <div class="container text-center">
+      <h3 style="padding-bottom: 10px;padding-top: 20px;">What do you like to tag</h3>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Paste the link" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <span class="input-group-text bg-info" id="basic-addon2">Tag Now</span>
+      </div>
+     </div>
+
+
+     <hr>
+     <!--Supported Platform-->
+     <div class="container px-4 py-5 text-center" style="padding:20px;background-color: lightcyan;max-width: 100%;height: 40%;">
+       <h1>Supported Platform</h1>
+       <div class="row g-4 py-5 row-cols-2 row-cols-md-3 row-cols-lg-4">
+        <div class="feature-col">
+           <img src="b1.png" style="margin:20px;width:50%;">
+        </div>
+        <div class="feature-col">
+         <img src="b2.png" style="margin:20px;width:50%;">
+        </div>
+        <div class="feature-col">
+         <img src="b3.png" style="margin:20px;width:50%;">
+        </div>
+        <div class="feature-col">
+          <img src="b4.png" style="margin:20px;width:50%;">
+         </div>
+       </div>
+     </div>
+
+     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+     <script>
+        function myFunction() {
+          alert("Dummy Website!");
+        }
+      </script>
+    </body>
+</html>
