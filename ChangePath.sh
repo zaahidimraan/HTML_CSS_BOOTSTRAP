@@ -1,7 +1,7 @@
 #!/bin/sh
-if [ -z "HTML,CSS,IMG" ]
+if [ -z "$1" ]
 then
-  echo "Which folder do you want to deploy to GitHub Pages?"
+  echo "HTML,CSS,IMG"
   exit 1
 fi
-git subtree push --prefix HTML,CSS,IMG origin gh-pages
+git subtree push --prefix $1 FA gh-pages
